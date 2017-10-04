@@ -26,8 +26,8 @@ jobs:
     steps:
       - TASK:
         - script: echo "Hello, World!"
-#    flags:
-#      - bar
+    flags:
+      - bar
       
   - name: J5
     type: runSh
@@ -35,6 +35,8 @@ jobs:
       - IN: J4
       - TASK:
         - script: echo "Hello, World!"
+    flags:
+      - far
         
   - name: J6
     type: runSh
