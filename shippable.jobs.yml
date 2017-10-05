@@ -26,8 +26,8 @@ jobs:
     steps:
       - TASK:
         - script: echo "Hello, World!"
-    flags:
-       - barx
+    #flags:
+    #   - barx
       
   - name: J5
     type: runSh
