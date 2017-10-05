@@ -1,5 +1,11 @@
 language: node_js
 
+build:
+  pre_ci_boot:
+    image_name: drydock/u14nod
+    image_tag: prod
+    pull: true
+    options: "--net=host"
 branches:
   only:
     - master
