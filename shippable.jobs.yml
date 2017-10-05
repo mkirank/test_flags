@@ -26,7 +26,7 @@ jobs:
     steps:
       - TASK:
         - script: echo "Hello, World!"
-     flags:
+    flags:
        - bar
       
   - name: J5
