@@ -34,7 +34,7 @@ jobs:
     steps:
       - IN: J4
       - TASK:
-        - script: echo "Hello, World test webhook!!"
+        - script: echo "Hello, World test webhook!"
     flags:
       - far
         
